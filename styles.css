@@ -3,6 +3,8 @@ body {
 }
 .card {
     background-color: white;
+    padding:10px;
+    border-radius: 6px; 
 }
 .header {
     display: grid;
@@ -18,16 +20,27 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
     column-gap: 20px; 
     row-gap: 20px;
+    padding:10px;
+    margin-top:40px;
+    margin-bottom:40px;
 }   
 .wrap{
     width:900px;
     margin-bottom: 40px;
     margin-top:40px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .selected{
     padding:10px;
     border-radius: 100%;
     background-color: white;
+}
+
+.instructions{
+    border-color:white;
+    border-width: 4px;
+    border-style: solid;
+    margin-top:20px;
+    padding:20px;
 }
