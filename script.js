@@ -77,3 +77,16 @@ function selectRandomNumber() {
 
 selectRandomNumber()
 
+
+
+function populateCards() {
+    let cards = document.querySelector('.cards')
+    for (let i = 0; i < arrayCards.length; i++) {
+        cards.innerHTML += '<div class="card" onclick="toggleEliminated(this)">'
+        + '<img src="' + arrayCards[i].image + '" />'
+        + '<span>' + arrayCards[i].name + '</span>'
+        + '</div>'
+    }
+}
+
+populateCards()
